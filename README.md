@@ -31,7 +31,9 @@ Database:
 MySQL (with image storage using LONGBLOB)
 
 Method to run this file:
-*save the project in folder command is cd path name.
-*copy the link and clone the link by using git clone command.
-*put cd rep name and click enter.
-*add command code .
+*copy the project link.
+*create a new folder and in that put cmd.
+*It open command prompt.
+*put "git clone 'project link' ".
+*put cd frontend folder name and click enter after that put npm install i and then  put npm run dev.
+*put cd backend folder name and click enter after that put npm install i and then put npm start.
