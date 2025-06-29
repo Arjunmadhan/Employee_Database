@@ -31,6 +31,8 @@ Database:
 MySQL (with image storage using LONGBLOB)
 
 Use this MySql code for storing data:
+Use Correct MySql password for correct verification in .env file.
+
 CREATE DATABASE IF NOT EXISTS employee_db;
 use employee_db;
 CREATE TABLE employees (
