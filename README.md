@@ -30,6 +30,23 @@ CORS (cross-origin requests)
 Database:
 MySQL (with image storage using LONGBLOB)
 
+Use this MySql code for storing data:
+CREATE DATABASE IF NOT EXISTS employee_db;
+use employee_db;
+CREATE TABLE employees (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  department VARCHAR(100),
+  project VARCHAR(100),
+  status VARCHAR(50),
+  employeeId VARCHAR(50) UNIQUE,
+  designation VARCHAR(100),
+  type VARCHAR(50)
+);
+ALTER TABLE employees ADD profile_photo LONGBLOB;
+
+select *from employees;
+
 Method to run this file:
 *copy the project link.
 *create a new folder and in that put cmd.
